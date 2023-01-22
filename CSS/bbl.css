@@ -1,0 +1,45 @@
+
+body {
+    background-image: url('../imgs/BBLbackground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8);
+    }
+.container-custom {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-item:after {
+    content:"";
+    display:block;
+
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.5);
+  }
+  .carousel-inner{
+    position:relative;
+  }
+  .BBLlogo{
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1000;
+  }
+  .cutout{
+    position: relative;
+    width: 60%;
+    z-index: 1;
+  }
+  .cutoutoutline{
+    width: 60%;
+    position: absolute;
+    left: 110px;
+    z-index: 2;
+  }
