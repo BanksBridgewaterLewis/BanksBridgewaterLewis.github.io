@@ -1,3 +1,67 @@
+.navbar {
+  overflow: hidden;
+  background-color: #12110e;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+ position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: rgb(215, 215, 215);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
 
 body {
     background-image: url('../imgs/BBLbackground.png');
@@ -7,9 +71,10 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     }
 .container-custom {
-    width: 80%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2%;
 }
 .carousel-item:after {
     content:"";
@@ -26,20 +91,58 @@ body {
   }
   .BBLlogo{
     display: block;
-    width: 50%;
+    width: 45%;
+    padding: 1%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    z-index: 1000;
+    
   }
   .cutout{
     position: relative;
     width: 60%;
-    z-index: 1;
+    z-index: 3;
   }
   .cutoutoutline{
     width: 60%;
     position: absolute;
     left: 110px;
     z-index: 2;
+  }
+  .text_header{
+    color: beige;
+    text-align: center;
+    padding: 1% ;
+  }
+  .text_header_section{
+    color: beige;
+    text-align: center;
+    padding: 1% ;
+  }
+  .our_mission_text{
+    color: beige;
+    text-align: center;
+    padding: 2%;
+  }
+  .YT_imgs{
+    width: 100%;
+    border-radius: 2%;
+  }
+  .history_img{
+    width: 100%;
+    border-radius: 2%;
+   position: relative;
+  }
+  .history_text{
+    position: absolute;
+    top: 5%;
+    color: white;
+    padding: 2%;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(22, 17, 8);
+    color: white;
   }
