@@ -1,65 +1,85 @@
-.navbar {
-  overflow: hidden;
-  background-color: #12110e;
-  padding: 10px;
-  text-align: center;
-  width: 100%;
-  position: sticky;
-  top: 0px;
-  z-index: 10;
+body,html {
+	font-family: 		arial;
+ 
 }
 
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+
+ul {
+    list-style-type:	none;
+	margin:				0px;
+	padding:			0px;
+    /*overflow: 			hidden;*/
+    background-color: 	rgb(0, 0, 0);
+    font-size: 0;
+    z-index: 100;
+    text-align: center;
+  
+  
 }
 
+li {
+    display: 	inline-block;
+    padding:			14px 16px;
+  
+}
+
+li a.active {
+	background-color: 	rgb(95, 71, 30);
+}
+
+li a, .dropbtn {
+    display:			inline-block;
+    color:				white;
+    text-align:			center;
+    padding:			14px 16px;
+    text-decoration:	none;
+	width:				150%;
+    font-size: initial;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: 	rgb(95, 71, 30);
+}
 
 .dropdown {
-  float: left;
-  overflow: hidden;
-}
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
+    display:	inline-block;
+	position:	relative;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
 .dropdown-content {
-  display: none;
- position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    display: 			none;
+    position: 			absolute;
+    background-color: 	rgb(255, 255, 255);
+    width: 				160px;
+    box-shadow: 		5px 10px 10px rgba(0,0,0,0.3);
+	z-index: 			1;
 }
 
 .dropdown-content a {
-  float: none;
-  color: rgb(215, 215, 215);
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+    color: 				black;
+    padding: 			12px 16px;
+    text-decoration: 	none;
+    display: 			block;
+    text-align: 		left;
+	width:				128px;
+	z-index: 			1;
 }
+
+.dropdown-content a:hover {
+	background-color: 	rgb(140, 185, 220);
+}
+
+.dropdown:hover .dropdown-content {
+    display:	block;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
 
 
 body {
