@@ -95,19 +95,6 @@ body {
     margin-right: auto;
     margin-bottom: 2%;
 }
-.carousel-item:after {
-    content:"";
-    display:block;
-
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background:rgba(0,0,0,0.5);
-  }
-  .carousel-inner{
-    position:relative;
-  }
   .BBLlogo{
     display: block;
     width: 45%;
@@ -115,48 +102,9 @@ body {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    
   }
-  .cutout{
-    position: relative;
-    width: 60%;
-    z-index: 3;
-  }
-  .cutoutoutline{
-    width: 60%;
-    position: absolute;
-    left: 110px;
-    z-index: 2;
-  }
-  .text_header{
-    color: beige;
-    text-align: center;
-    padding: 1% ;
-  }
-  .text_header_section{
-    color: beige;
-    text-align: center;
-    padding: 1% ;
-  }
-  .our_mission_text{
-    color: beige;
-    text-align: center;
-    padding: 2%;
-  }
-  .YT_imgs{
-    width: 100%;
-    border-radius: 2%;
-  }
-  .history_img{
-    width: 100%;
-    border-radius: 2%;
-   position: relative;
-  }
-  .history_text{
-    position: absolute;
-    top: 5%;
-    color: white;
-    padding: 2%;
+  .mission_text{
+    color: #ffffff;
     text-align: center;
   }
   footer {
