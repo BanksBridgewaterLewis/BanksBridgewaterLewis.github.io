@@ -89,11 +89,25 @@ body {
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.8);
     }
+    .title{
+      color: beige;
+      font-size: 200%;
+      text-align: center;
+    }
 .container-custom {
-    width: 95%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
+}
+.Programpic{
+  display: block;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid beige;
+  border-radius: 25px;
+  width: 70%;
 }
   .BBLlogo{
     display: block;
@@ -104,8 +118,9 @@ body {
     margin-right: auto;
   }
   .program_text{
-    color: #ffffff;
+    color: beige;
     text-align: center;
+    font-size: 130%;
   }
 
   .grid-container {
@@ -131,5 +146,5 @@ body {
     text-align: center;
     padding: 3px;
     background-color: rgb(22, 17, 8);
-    color: white;
+    color: beige;
   }

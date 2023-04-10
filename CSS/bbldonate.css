@@ -103,9 +103,10 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  .mission_text{
+  .dtext{
     color: beige;
     text-align: left;
+    text-align: center;
     animation: slideIn1 ease 3s;
   }
   .mission{
@@ -114,10 +115,12 @@ body {
     animation: slideIn1 ease 1s;
   }
   .Title{
+    color: beige;
+    font-size: 220%;
     text-align: center;
     animation: slideIn1 ease 2s;
   }
-  .Missionpic{
+  .donate_pic{
     display: block;
     margin: 20px;
     margin-left: auto;

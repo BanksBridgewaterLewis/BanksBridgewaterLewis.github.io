@@ -115,6 +115,8 @@ body {
   }
   .Title{
     text-align: center;
+    font-size: 320%;
+    color: beige;
     animation: slideIn1 ease 2s;
   }
   .Missionpic{
@@ -126,6 +128,44 @@ body {
     border-radius: 25px;
     width: 70%;
   }
+
+  .perpic1{
+    width: 100%;
+    padding: 20px;
+    border: 10px solid beige;
+    border-radius: 25px;
+    animation: fadeInAnimation ease 3s;
+  }
+  .perpic2{
+    width: 100%;
+    padding: 20px;
+    border: 10px solid beige;
+    border-radius: 25px;
+    animation: fadeInAnimation ease 5s;
+  }
+  .perpic3{
+    width: 100%;
+    padding: 20px;
+    border: 10px solid beige;
+    border-radius: 25px;
+    animation: fadeInAnimation ease 7s;
+  }
+  .perpic4{
+    width: 100%;
+    padding: 20px;
+    border: 10px solid beige;
+    border-radius: 25px;
+    animation: fadeInAnimation ease 9s;
+  }
+
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
   @keyframes slideIn1 {
     0% {
       transform: translateX(900px);

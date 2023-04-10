@@ -90,7 +90,7 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     }
 .container-custom {
-    width: 95%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
@@ -103,13 +103,45 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+  .Curriculumpic{
+    display: block;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid beige;
+    border-radius: 25px;
+    width: 70%;
+  }
+  
   .curriculum_text{
-    color: #ffffff;
+    color: beige;
+  }
+
+  .Title{
     text-align: center;
+    font-size: 130%;
+    animation: slideIn1 ease 2s;
+  }
+  .Title2{
+    text-align: center;
+    font-size: 120%;
+    animation: slideIn1 ease 2.5s;
+  }
+  .text{
+    animation: slideIn1 ease 3s;
   }
   footer {
     text-align: center;
     padding: 3px;
     background-color: rgb(22, 17, 8);
     color: white;
+  }
+
+  @keyframes slideIn1 {
+    0% {
+      transform: translateX(900px);
+    }
+    100% {
+      transform: translateX(0);
+    }
   }

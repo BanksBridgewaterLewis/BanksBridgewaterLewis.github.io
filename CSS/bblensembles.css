@@ -103,21 +103,20 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  .mission_text{
+  .Entext{
     color: beige;
-    text-align: left;
+    text-align: center;
     animation: slideIn1 ease 3s;
   }
-  .mission{
-    text-align: center;
-    font-size: 120%;
-    animation: slideIn1 ease 1s;
-  }
+ 
+ 
   .Title{
+    color: beige;
+    font-size: 200%;
     text-align: center;
     animation: slideIn1 ease 2s;
   }
-  .Missionpic{
+  .enpic{
     display: block;
     margin: 20px;
     margin-left: auto;
@@ -125,7 +124,33 @@ body {
     border: 10px solid beige;
     border-radius: 25px;
     width: 70%;
+    animation: fadeInAnimation ease 2s;
   }
+
+  .enpic1{
+    width: 40%;
+    padding: 20px;
+    border: 10px solid beige;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .enpic2{
+    width: 40%;
+    padding: 20px;
+    border: 10px solid beige;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
   @keyframes slideIn1 {
     0% {
       transform: translateX(900px);

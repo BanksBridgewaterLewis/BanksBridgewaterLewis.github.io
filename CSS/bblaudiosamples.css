@@ -90,11 +90,73 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     }
 .container-custom {
-    width: 95%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
 }
+.Title{
+  font-size: 320%;
+  color: beige;
+  text-align: center;
+}
+
+.LS1{
+  display: block;
+
+  width: 4%;
+  animation: fadeInAnimation ease 1s;
+}
+.RS1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 4%;
+  animation: fadeInAnimation ease 2s;
+}
+.LS2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 4%;
+  animation: fadeInAnimation ease 3s;
+}
+.RS2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 4%;
+  animation: fadeInAnimation ease 4s;
+}
+.LS3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 4%;
+  animation: fadeInAnimation ease 5s;
+}
+.RS3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 4%;
+  animation: fadeInAnimation ease 6s;
+}
+.LS4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 4%;
+  animation: fadeInAnimation ease 7s;
+}
+.RS4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 4%;
+  animation: fadeInAnimation ease 8s;
+}
+
   .BBLlogo{
     display: block;
     width: 45%;
@@ -122,6 +184,15 @@ body {
     font-size: 20px;
     text-align: center;
   }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
   footer {
     text-align: center;
     padding: 3px;

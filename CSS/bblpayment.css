@@ -103,29 +103,52 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  .mission_text{
+  .paytext{
     color: beige;
-    text-align: left;
-    animation: slideIn1 ease 3s;
+    font-size: 200%;
+    text-align: center;
+    animation: fadeInAnimation ease 3s;
   }
   .mission{
     text-align: center;
-    font-size: 120%;
-    animation: slideIn1 ease 1s;
+    font-size: 100%;
+    animation: fadeInAnimation ease 3s;
   }
   .Title{
+    font-size: 320%;
     text-align: center;
-    animation: slideIn1 ease 2s;
+    color: beige;
+    animation: fadeInAnimation ease 3s;
   }
-  .Missionpic{
+  .button {
+    border: none;
+    color: beige;
+    padding: 16px 32px;
+    text-align: center;
     display: block;
-    margin: 20px;
+    font-size: 30px;
+    margin: 4px 2px;
     margin-left: auto;
     margin-right: auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
     border: 10px solid beige;
     border-radius: 25px;
-    width: 70%;
+    background-color: transparent;
   }
+
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
   @keyframes slideIn1 {
     0% {
       transform: translateX(900px);
